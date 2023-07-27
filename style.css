@@ -1,0 +1,131 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+   background-image: linear-gradient(to bottom,rgb(66, 66, 167),rgb(172, 54, 54));
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   margin-top: 10px;  
+}
+
+.container{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+}
+.search-box{
+  margin-top: 150px;
+}
+#search-input{
+  margin: 8px 0;
+  outline:none;
+  border-radius: 20px;
+  padding: 10px;
+  border: 4px solid green;
+  font-size:20px ;
+  color: blueviolet;
+  text-align: center;
+
+}
+#search-button{
+  margin: 5px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: darksalmon;
+  color:rgb(128, 6, 6);
+  border:none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+#search-button:hover{
+  background-color: bisque;
+  cursor:pointer;
+  color:rgb(197, 30, 30);
+}
+.city{
+  text-align: center;
+  text-transform: uppercase;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  font-weight: 700;
+ color:ghostwhite;
+ margin-right: 60px;
+ margin-top: 40px;
+ margin-bottom: 10px;
+}
+.images{
+  width: 65px;
+  height:65px;
+  margin-right: 40px;
+  margin-top: 10px; 
+}
+.Temperature{
+ font-size: 70px;
+ font-weight: 700;
+ padding: 5px;
+ color: azure;
+}
+.current-state{
+  font-size: 30px;
+  color:azure;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 5px;
+  margin: 50px 30px;
+
+}
+.col{
+  height: auto;
+}
+.col .humidity{
+  font-size: 30px;
+  font-weight: 600;
+  color: azure;
+}
+.col .humid{
+  font-size:25px;
+ text-transform: uppercase;
+ color:aliceblue;
+}
+.col .Wind{
+  font-size: 30px;
+  font-weight: 600;
+  color: azure;
+}
+.col .Wind1{
+  font-size:25px;
+ text-transform: uppercase;
+ color:aliceblue;
+}
+.information{
+  display:none;
+}
+.error{
+  display:none;
+  color: aliceblue;
+  text-align:center;
+  margin-top:10px;
+  font-size: 25px;
+  margin-right: 100px;
+}
+
